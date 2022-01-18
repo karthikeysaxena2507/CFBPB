@@ -1,0 +1,32 @@
+server:
+  port: 9000
+
+spring:
+  data:
+    mongodb:
+      uri: 
+      database: 
+  redis:
+    password: 
+    host: 
+    port: 
+
+logging:
+  level:
+    org.springframework.ExtendedLender.mongodb.core.MongoTemplate: DEBUG
+
+equifax:
+  username: 
+  password: 
+  enquiryUri: https://cteau.vedaxml.com/sys2/soap11/vedascore-apply-v2-0
+  toHeader: http://vedaxml.com/sys2/vedascore-apply-v2-0
+  actionHeader: http://vedaxml.com/vedascore-apply/EnquiryRequest
+  headerNamespace: http://www.w3.org/2005/08/addressing
+  securityNamespace: http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd
+
+illion:
+  apiKey: 
+  loginUri: https://test.bankstatements.com.au/api/v1/login
+  statementsUri: https://test.bankstatements.com.au/api/v1/statements
+  referralCode: TEST
+  outputVersion: 20170401
