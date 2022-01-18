@@ -1,6 +1,6 @@
-# CF-Brokerage-Backend
+<!-- # CF-Brokerage-Backend
 The backend of the consumer finance brokerage prototype
-
+ -->
 ## Requirements to run the app locally 
 
 1. Java JDK 11 must be installed in the system
